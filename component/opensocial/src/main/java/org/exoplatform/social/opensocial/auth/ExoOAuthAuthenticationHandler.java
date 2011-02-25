@@ -29,7 +29,7 @@ public class ExoOAuthAuthenticationHandler extends OAuthAuthenticationHandler {
 
   @Inject
   public ExoOAuthAuthenticationHandler(OAuthDataStore store, @Named("shindig.oauth.legacy-body-signing") boolean allowLegacyBodySigning) {
-    super(store, allowLegacyBodySigning);
+    super(store);
   }
 
   public String getName() {

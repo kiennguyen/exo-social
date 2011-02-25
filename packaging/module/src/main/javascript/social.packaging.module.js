@@ -43,7 +43,7 @@ function getModule(params) {
   /*
     addDependency(new Project("commons-betwixt", "commons-betwixt", "jar", "0.8")).
     addDependency(new Project("net.sf.json-lib", "json-lib", "jar", "2.2")).
-    addDependency(new Project("org.gatein.shindig", "shindig-social-api", "jar", shindigVersion)).
+    addDependency(new Project("org.apache.shindig", "shindig-social-api", "jar", shindigVersion)).
     addDependency(new Project("org.apache.geronimo.specs", "geronimo-stax-api_1.0_spec", "jar", "1.0.1"));
   */
   module.webapp.opensocial.deployName = "social";

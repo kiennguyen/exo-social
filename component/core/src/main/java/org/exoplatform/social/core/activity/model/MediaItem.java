@@ -16,6 +16,8 @@
  */
 package org.exoplatform.social.core.activity.model;
 
+import org.apache.shindig.social.opensocial.model.Address;
+
 /**
  * The Class MediaItem represent MediaItem in opensocial.
  */
@@ -94,4 +96,174 @@ public class MediaItem implements org.apache.shindig.social.opensocial.model.Med
   public void setThumbnailUrl(String thumbnailUrl) {
     this.thumbnailUrl = thumbnailUrl;
   }
+
+   public String getAlbumId()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setAlbumId(final String albumId)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getCreated()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setCreated(final String created)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getDescription()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setDescription(final String description)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getDuration()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setDuration(final String duration)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getFileSize()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setFileSize(final String fileSize)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getId()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setId(final String id)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getLanguage()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setLanguage(final String language)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getLastUpdated()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setLastUpdated(final String lastUpdated)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public Address getLocation()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setLocation(final Address location)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getNumComments()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setNumComments(final String numComments)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getNumViews()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setNumViews(final String numViews)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getNumVotes()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setNumVotes(final String numVotes)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getRating()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setRating(final String rating)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getStartTime()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setStartTime(final String startTime)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getTaggedPeople()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setTaggedPeople(final String taggedPeople)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getTags()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setTags(final String tags)
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public String getTitle()
+   {
+      throw new RuntimeException("PAF");
+   }
+
+   public void setTitle(final String title)
+   {
+      throw new RuntimeException("PAF");
+   }
 }

@@ -97,7 +97,7 @@
     <org.gatein.pc.version>2.2.0-GA</org.gatein.pc.version>
     <org.gatein.wsrp.version>1.1.1-GA</org.gatein.wsrp.version>
     <org.gatein.mop.version>1.0.4-GA</org.gatein.mop.version>
-    <org.shindig.version>1.0-r790473-Patch04</org.shindig.version>
+    <org.shindig.version>3.0.0-1073649-SNAPSHOT</org.shindig.version>
     <org.chromattic.version>1.0.4</org.chromattic.version>
 
     <org.fontbox.version>0.1.0</org.fontbox.version>
@@ -126,7 +126,7 @@
     <!-- maven-enforcer-plugin -->
     <jdk.min.version>1.6</jdk.min.version>
     <!-- maven-release-plugin -->
-    <arguments>-Prelease,distrib,java-api-compat,run-its,pkg-tomcat,arc-tomcat -Dgatein.working.dir=target</arguments>
+    <!--<arguments>-Prelease,distrib,java-api-compat,run-its,pkg-tomcat,arc-tomcat -Dgatein.working.dir=target</arguments>-->
   </properties>
 
   <modules>
@@ -470,33 +470,33 @@
 
       <!--  Shindig -->
       <dependency>
-        <groupId>org.gatein.shindig</groupId>
+        <groupId>org.apache.shindig</groupId>
         <artifactId>shindig-gadgets</artifactId>
         <version>${org.shindig.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.gatein.shindig</groupId>
+        <groupId>org.apache.shindig</groupId>
         <artifactId>shindig-features</artifactId>
         <version>${org.shindig.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.gatein.shindig</groupId>
+        <groupId>org.apache.shindig</groupId>
         <artifactId>shindig-common</artifactId>
         <version>${org.shindig.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.gatein.shindig</groupId>
+        <groupId>org.apache.shindig</groupId>
         <artifactId>shindig-server</artifactId>
         <version>${org.shindig.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.gatein.shindig</groupId>
+        <groupId>org.apache.shindig</groupId>
         <artifactId>shindig-server</artifactId>
         <version>${org.shindig.version}</version>
         <type>war</type>
       </dependency>
       <dependency>
-        <groupId>org.gatein.shindig</groupId>
+        <groupId>org.apache.shindig</groupId>
         <artifactId>shindig-social-api</artifactId>
         <version>${org.shindig.version}</version>
       </dependency>
